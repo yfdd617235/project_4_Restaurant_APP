@@ -1,9 +1,18 @@
+.navigator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: sticky;
+}
+
+
 .container{
     background-color: black;
     display: flex;
-    height: 80px;
+    height: 50px;
     width: 100%;
-    border: solid white;
+    /* border: solid white; */
 }
 
 .navMenu{
@@ -11,15 +20,17 @@
     align-items: center;
     list-style: none;
     text-align: center;
-    width: 50%;
-    justify-content: space-between;
-    border: solid rgb(255, 251, 0);
+    width: 100%;
+    justify-content: left;
+    /* padding: 0 10px; */
+    /* justify-content: space-between; */
+    /* border: solid rgb(255, 251, 0); */
 }
 
 .link-menu{
     color: white;
     text-decoration: none;
-    /* padding: 0 24px; */
-    border: solid white;
+    padding: 0 10px;
+    /* border: solid rgb(255, 0, 0); */
 }
 
