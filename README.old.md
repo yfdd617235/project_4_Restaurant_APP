@@ -40,3 +40,4 @@ Then in app.js creat links to differentss routes using the Component Navigator:
 -> in app.js -> <Navigator></Navigator>
 
 3. Install react bootstrap -> npm i react-bootstrap
+put import 'bootstrap/dist/css/bootstrap.min.css'; in Index.js

@@ -1,21 +1,20 @@
 
 import React from 'react'
-import { Form } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
 
 function Bookings() {
 
-  function onSave(){
-    let a = 1;
-  }
+  // function onSave(){
+  //   let a = 1;
+  // }
 
   return (
     <>
       <div className='wrap'>
         <div className='formContent'>
-          <div className='colum'>
-            <Form className='form-reserva' onSubmit={onSave}>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
+          <div className='Column'>
+            <Form className='form-reserva'>
                 <Form.Label>Full Name</Form.Label>
                 <Form.Control type="text" placeholder="Type your full name" />
                 <Form.Label>Cellphone</Form.Label>
@@ -25,8 +24,7 @@ function Bookings() {
                 <Form.Label>Full Name</Form.Label>
                 <Form.Control type="text" placeholder="Type your full name" />
                 <Form.Label>Full Name</Form.Label>
-                <Form.Control type="text" placeholder="Type your full name" />
-              </Form.Group>
+                <Form.Control type="text" placeholder="Type your full name" />      
               <Button variant="primary" type="submit">
                 Submit
               </Button>

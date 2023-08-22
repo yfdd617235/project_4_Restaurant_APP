@@ -6,14 +6,14 @@ function Navigator() {
     return (
         <>
         <nav className='navigator' >
-        <div className='container' >
+        {/* <div className='container' > */}
             <ul className='navMenu' >
                 <li><NavLink className="link-menu" to="/">Home</NavLink></li>
                 <li><NavLink className="link-menu" to="/AboutUs">About Us</NavLink></li>
                 <li><NavLink className="link-menu" to="/Menu">Menu</NavLink></li>
                 <li><NavLink className="link-menu" to="/Bookings">Bookings</NavLink></li>
             </ul>
-        </div>
+        {/* </div> */}
         </nav>
         </>
     )
