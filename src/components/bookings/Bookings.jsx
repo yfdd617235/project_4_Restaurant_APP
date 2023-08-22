@@ -21,7 +21,7 @@ function Bookings() {
                 <Form.Label>Cellphone</Form.Label>
                 <Form.Control type="text" placeholder="Type your Cellphone" />
                 <Form.Label>Booking Date</Form.Label>
-                <Form.Control type="date" placeholder="Type your full name" />
+                <Form.Control type="date" placeholder="Type the booking date" />
                 <Form.Label>Full Name</Form.Label>
                 <Form.Control type="text" placeholder="Type your full name" />
                 <Form.Label>Full Name</Form.Label>
