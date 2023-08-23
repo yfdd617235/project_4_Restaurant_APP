@@ -1,11 +1,11 @@
 
 import './App.css';
 import {Route, Routes} from 'react-router-dom';
-import Home from './components/Home/Home';
-import AboutUs from './components/AboutUs/AboutUs';
-import Menu from './components/Menu/Menu';
-import Bookings from './components/Bookings/Bookings';
-import Navigator from './components/Navigator/Navigator';
+import Home from './components/home/Home';
+import AboutUs from './components/aboutUs/AboutUs';
+import Menu from './components/menu/Menu';
+import Bookings from './components/bookings/Bookings';
+import Navigator from './components/navigator/Navigator';
 
 function App() {
  
