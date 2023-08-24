@@ -1,13 +1,14 @@
 import React from 'react'
 import './home.css'
+import Carouselfn from './Carouselfn.jsx'
 
 function Home() {
   return (
-    <div>
-      <div className='home-container' >
-        
+    <>
+      <div>
+        <Carouselfn/>
       </div>
-    </div>
+    </>
   )
 }
 

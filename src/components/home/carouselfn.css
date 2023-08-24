@@ -1,0 +1,11 @@
+.carouseldiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+  }
+
+.carouseldiv img {
+    max-width: 100%;
+    height: auto;
+  }
