@@ -5,7 +5,7 @@ import Carouselfn from './Carouselfn.jsx'
 function Home() {
   return (
     <>
-      <div>
+      <div className="contenedor"> 
         <Carouselfn/>
       </div>
     </>
