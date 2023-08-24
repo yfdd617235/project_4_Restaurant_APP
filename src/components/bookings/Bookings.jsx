@@ -36,22 +36,22 @@ function Bookings() {
           <div className='Column'>
             <Form className='form-Booking' onSubmit={onSave}>
                 <Form.Label>Full Name</Form.Label>
-                <Form.Control type="text" name='name' value={form.name} onChange={onChange} placeholder="Type your full name" />
+                <Form.Control type="text" name='name' value={form.name} onChange={onChange} placeholder="Type your full name" /><br/>
                 <Form.Label>Cellphone</Form.Label>
-                <Form.Control type="text" name='cell' value={form.cell} onChange={onChange} placeholder="Type your Cellphone" />
+                <Form.Control type="text" name='cell' value={form.cell} onChange={onChange} placeholder="Type your Cellphone" /><br/>
                 <Form.Label>Date</Form.Label>
-                <Form.Control type="date" name='date' value={form.date} onChange={onChange}/>
+                <Form.Control type="date" name='date' value={form.date} onChange={onChange}/><br/>
                 <Form.Label>Hour</Form.Label>
-                <Form.Control type="time" name='hour' value={form.hour} onChange={onChange}/>
+                <Form.Control type="time" name='hour' value={form.hour} onChange={onChange}/><br/>
                 <Form.Label>Diners</Form.Label>
-                <Form.Control type="text" name='diners' value={form.diners} onChange={onChange}/>
+                <Form.Control type="text" name='diners' value={form.diners} onChange={onChange}/><br/>
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" name='email' value={form.email} onChange={onChange} placeholder="Type your email" />
               <br />
               <Form.Text className='text-muted'>
                 Your information won´t be shared or re-used
               </Form.Text>
-              <Button variant="primary" type="submit">
+              <Button variant="danger" type="submit">
                 Submit
               </Button>
             </Form>
