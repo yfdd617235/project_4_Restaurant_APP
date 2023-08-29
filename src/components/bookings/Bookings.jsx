@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 import BookingTable from './BookingTable';
 import './bookings.css'
 import {collection, addDoc, onStapshot} from 'firebase/firestore'
-import db from '../services/firebase.js'
+import db from '../../services/firebase.js'
 
 function Bookings() {
   const[form, setForm] = useState({
@@ -23,6 +23,8 @@ function Bookings() {
     console.log("This is the form", form)
 
     const resp = addDoc(collection(db,'booking'), form)
+    .then(resp => alert("Booking saved"))
+    
     console.log("Saved info", resp)
   }
 
