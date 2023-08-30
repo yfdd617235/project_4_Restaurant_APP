@@ -1,14 +1,10 @@
 .carouseldiv {
-    /* width: 1000px; */
-    /* align-items: center;
-    justify-content: center; */
-    /* height: 200px; */
-    /* border: solid red; */
+    text-shadow: 2px 2px 2px rgb(128, 33, 33);
     overflow: hidden;
   }
 
 .carouseldiv img {
-  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
-  height: 100%; /* La imagen ocupa todo el alto del contenedor */
+  width: 100%;
+  height: 100%;
   object-fit: fill;
   }
