@@ -4,7 +4,7 @@
     font-size: 15px;
     position: sticky;
     /* border: solid rgb(255, 0, 0); */
-    background-color: rgba(73, 8, 8, 0.986);
+    background-color: #74250E;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -38,7 +38,7 @@
   }
 
 .link-menu{
-    color: rgb(221, 127, 127);
+    color: #c9a093;
     text-decoration: none;
     padding: 0 10px;
     font-weight: bold;
@@ -47,9 +47,13 @@
 }
 
 .link-menu:hover{
-    color: rgb(255, 196, 196);
-    text-shadow: 2px 2px 2px rgba(187, 151, 151, 0.5);
+    color: #c99f93cb;
     /* border: solid rgb(255, 0, 0); */
+}
+
+.img-logo{
+    /* border: solid blue; */
+    height: 30px;
 }
 
 
