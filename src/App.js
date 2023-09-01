@@ -6,6 +6,7 @@ import AboutUs from './components/aboutUs/AboutUs';
 import Menu from './components/menu/Menu';
 import Bookings from './components/bookings/Bookings';
 import Navigator from './components/navigator/Navigator';
+import Footer from './components/footer/Footer'
 
 function App() {
  
@@ -18,7 +19,7 @@ function App() {
         <Route path='/Menu' element={<Menu></Menu>} ></Route> 
         <Route path='/Bookings' element={<Bookings></Bookings>} ></Route> 
       </Routes>
-      
+      <Footer className="footer"></Footer>
     </div>
   );
 }

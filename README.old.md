@@ -76,3 +76,5 @@ put import 'bootstrap/dist/css/bootstrap.min.css'; in Index.js
 Atribuciones_imagenes
 1<a href="https://www.freepik.es/foto-gratis/costilla-restaurante-costillas-proceso-preparar-costillas-cerdo-fuego-abierto_29150983.htm#query=smoked_brisket&position=0&from_view=search&track=ais">Imagen de Kireyonok_Yuliya</a> en Freepik
 
+
+
