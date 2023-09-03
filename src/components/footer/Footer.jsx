@@ -1,5 +1,4 @@
 import React from 'react'
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import logob from '../logos/grillsvgw.svg';
 import img from './wapp.svg';
@@ -27,8 +26,8 @@ function Footer() {
 
         <Col className='col-container'>
           <h5>Contact Us</h5><br />
-          <a className="footer-nav-link" href="https://api.whatsapp.com/send?phone=573104221653" target="_blank"><img src={img} alt=""></img>+57 3104221653</a>
-          <a className="footer-nav-link" href="https://www.google.com/maps/place/Medell%C3%ADn,+Antioquia/@6.2555965,-75.5824856,15z/data=!4m6!3m5!1s0x8e4428dfb80fad05:0x42137cfcc7b53b56!8m2!3d6.2476376!4d-75.5658153!16zL20vMDF4XzZz?hl=es-VE&entry=ttu"><img src={img1} alt=""></img> Medellín-Antioquia, Colombia</a>
+          <a className="footer-nav-link" href="https://api.whatsapp.com/send?phone=573104221653" target="_blank" rel="noreferrer"><img src={img} alt=""></img>+57 3104221653</a>
+          <a className="footer-nav-link" href="https://www.google.com/maps/place/Medell%C3%ADn,+Antioquia/@6.2555965,-75.5824856,15z/data=!4m6!3m5!1s0x8e4428dfb80fad05:0x42137cfcc7b53b56!8m2!3d6.2476376!4d-75.5658153!16zL20vMDF4XzZz?hl=es-VE&entry=ttu" target="_blank" rel="noreferrer"><img src={img1} alt=""></img> Medellín-Antioquia, Colombia</a>
         </Col>
 
       </div>
