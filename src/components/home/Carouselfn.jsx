@@ -10,7 +10,7 @@ function Carouselfn() {
   return (
     <>
       <div className='carouseldiv'>
-      <Carousel fade>
+      <Carousel fade interval={2000}>
         <Carousel.Item>
         <img className="d-block w-100 img-fluid" src={img1} alt="First slide" />
           <Carousel.Caption>
