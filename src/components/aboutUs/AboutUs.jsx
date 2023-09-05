@@ -8,8 +8,8 @@ function AboutUs() {
 
   return (
     <>
-      <div class="column-container container text-justify">
-        <div class="row align-items-center">
+      <div className="column-container container text-justify">
+        <div className="row align-items-center">
         <div className="col-md-8 column">
           <h2>About Us</h2><br />
           <p className='text'>Welcome to Texas Grill, where Southern flavors shine. We celebrate Texas cuisine and hospitality, sharing the culinary heritage of the Lone Star State. Our diverse menu showcases authentic Texan tastes, from smoked brisket to jalapeño poppers. Our expert chefs infuse bold flavors into every dish.
@@ -20,7 +20,7 @@ We support local farmers and producers, strengthening our community. Join us at 
 
             Feel free to use this adapted version for your "About Us" section, reflecting the name change and location update of Texas Grill in Envigado, Antioquia.</p>
           </div>
-          <div class="col-md-4 column">
+          <div className="col-md-4 column">
             <img src={img} alt="Texas Grill" className="img-fluid image-with-shadow"></img>
           </div>
         </div>
