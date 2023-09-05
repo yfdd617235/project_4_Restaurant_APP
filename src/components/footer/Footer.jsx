@@ -7,6 +7,11 @@ import './footer.css';
 import { NavLink } from 'react-router-dom'
 
 function Footer() {
+
+  function  clicnavtop(){
+    window.scrollTo({top:0})
+  }
+
   return (
 
     <div className='footer-container'>
@@ -18,10 +23,10 @@ function Footer() {
 
         <Col className='col-container links' >
           <h5> Web Navigator</h5><br />
-          <NavLink to="/" className="footer-nav-link">Home</NavLink>
-          <NavLink to="/AboutUs" className="footer-nav-link">About Us</NavLink>
-          <NavLink to="/Menu" className="footer-nav-link">Menu</NavLink>
-          <NavLink to="/Bookings" className="footer-nav-link">Bookings</NavLink>
+          <NavLink onClick={clicnavtop} to="/" className="footer-nav-link">Home</NavLink>
+          <NavLink onClick={clicnavtop} to="/AboutUs" className="footer-nav-link">About Us</NavLink>
+          <NavLink onClick={clicnavtop} to="/Menu" className="footer-nav-link">Menu</NavLink>
+          <NavLink onClick={clicnavtop} to="/Bookings" className="footer-nav-link">Bookings</NavLink>
         </Col>
 
         <Col className='col-container'>
