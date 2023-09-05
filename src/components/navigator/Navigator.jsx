@@ -4,6 +4,9 @@ import logob from '../logos/grillsvgw.svg'
 import './navigator.css'
 
 function Navigator() {
+    function  clicnavtop(){
+        window.scrollTo({top:0})
+      }
     return (
         <>
             <div className='nav-container'>
@@ -13,10 +16,10 @@ function Navigator() {
                 </div>
                 <nav className='navigator' >
                     <ul className='navMenu' >
-                        <li><NavLink className="link-menu" to="/">Home</NavLink></li>
-                        <li><NavLink className="link-menu" to="/AboutUs">About Us</NavLink></li>
-                        <li><NavLink className="link-menu" to="/Menu">Menu</NavLink></li>
-                        <li><NavLink className="link-menu" to="/Bookings">Bookings</NavLink></li>
+                        <li><NavLink onClick={clicnavtop} className="link-menu" to="/">Home</NavLink></li>
+                        <li><NavLink onClick={clicnavtop} className="link-menu" to="/AboutUs">About Us</NavLink></li>
+                        <li><NavLink onClick={clicnavtop} className="link-menu" to="/Menu">Menu</NavLink></li>
+                        <li><NavLink onClick={clicnavtop} className="link-menu" to="/Bookings">Bookings</NavLink></li>
                     </ul>
                 </nav>
             </div>
