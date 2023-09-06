@@ -1,0 +1,20 @@
+.table-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+    text-align: center;
+    color: brown;
+}
+
+
+
+@media (max-width: 820px) {
+    .table-container {
+      font-size:xx-small;
+      padding-left: 50%;
+      /* padding-right: 5px; */
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
