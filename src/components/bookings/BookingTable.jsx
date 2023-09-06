@@ -25,8 +25,10 @@ function BookingTable() {
 
   return (
     <>
+      <div className='table-title'>
+      <h4>Bookings Table</h4>
+      </div>
       <div className='table-container'>
-        <h4>Bookings Table</h4><br />
         <Table className='table-scroll'> 
           <thead>
             <tr>
