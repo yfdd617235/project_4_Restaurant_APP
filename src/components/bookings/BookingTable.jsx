@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
-import bookingtable from './bookingtable.css'
 import { collection, onSnapshot } from 'firebase/firestore'
 import db from '../../services/firebase.js'
+import './bookingtable.css'
 
 function BookingTable() {
   const [bookings, setBookings] = useState([]);
