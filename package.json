@@ -1,5 +1,5 @@
 {
-  "name": "project4_react_esmeralda",
+  "name": "project4_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "react-router-dom": "^6.15.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
+  
   },
   "scripts": {
     "start": "react-scripts start",
