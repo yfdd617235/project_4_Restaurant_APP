@@ -20,7 +20,7 @@
 @media (max-width: 820px) {
     .table-container {
       font-size:xx-small;
-      /* padding-left: 10%; */
+      padding-left: 50%;
       /* padding-right: 5px; */
       overflow-x: auto;
       white-space: nowrap;
