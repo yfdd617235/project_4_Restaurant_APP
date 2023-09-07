@@ -1,6 +1,8 @@
 # Project 4 - Restaurant API
 
-This is a web page of a restaurant. It uses HTML, JS, CSS, React, Firebase, Firestore, bootstrap and react-bootstrap
+This is a web page of a restaurant. It uses HTML, JS, CSS, React, Firebase, Firestore, bootstrap and react-bootstrap.
+
+Web page deployed: https://texasgrill.netlify.app/
 
 
 # Getting Started with Create React App
