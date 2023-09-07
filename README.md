@@ -1,3 +1,8 @@
+# Project 4 - Restaurant API
+
+This is a web page of a restaurant. It uses HTML, JS, CSS, React, Firebase, Firestore, bootstrap and react-bootstrap
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
