@@ -6,14 +6,15 @@ import { collection, addDoc } from 'firebase/firestore'
 import db from '../../services/firebase.js'
 
 const BookingForm = () => {
-  const [form, setForm] = useState({
+    const initialFormState = {
     name: "",
     cell: "",
     date: "",
     hour: "",
     diners: "",
     email: ""
-  })
+  };
+  const [form, setForm] = useState(initialFormState);
 
   function onSave(event) {
 
@@ -22,7 +23,8 @@ const BookingForm = () => {
 
     const resp = addDoc(collection(db, 'booking'), form)
       .then(resp => alert("Booking saved"))
-    console.log("Saved info", resp)
+       console.log("Saved info", resp)
+       setForm(initialFormState); //Empty form after sending to firebase
   }
 
   function onChange(event) {
