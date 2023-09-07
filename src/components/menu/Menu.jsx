@@ -7,13 +7,13 @@ import './menu.css'
 function Menu() {
   return (
     <>
-    <div className='menu'>
-    <div className='menu-title'>
-    <h2>MENU</h2>
-    </div >
-      <div className='cards'>
-        {products.map((product, index) => {
-          return (
+      <div className='menu'>
+        <div className='menu-title'>
+          <h2>MENU</h2>
+        </div >
+        <div className='cards'>
+          {products.map((product, index) => {
+            return (
               <Card style={{ width: '18rem' }} key={index} className='card text'>
                 <Card.Img variant="top" src={product.img} />
                 <Card.Body>
@@ -21,15 +21,15 @@ function Menu() {
                   <Card.Text>
                     {product.description}
                   </Card.Text>
-                  <Button variant="dark" >Prince {product.price} USD</Button>
+                  <Button variant="dark">Price {product.price} USD</Button>
                 </Card.Body>
               </Card>
-          )
-        }
-        )}
+            )
+          }
+          )}
+        </div>
       </div>
-    </div>
-    
+
     </>
   );
 }

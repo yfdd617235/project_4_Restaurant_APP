@@ -47,7 +47,7 @@ const BookingForm = () => {
                 <Form.Control type="date" name='date' value={form.date} onChange={onChange} /><br />
                 <Form.Label>Hour</Form.Label>
                 <Form.Control type="time" name='hour' value={form.hour} onChange={onChange} /><br />
-                <Form.Label>Diners</Form.Label>
+                <Form.Label>Diners Number</Form.Label>
                 <Form.Control type="text" name='diners' value={form.diners} onChange={onChange} /><br />
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" name='email' value={form.email} onChange={onChange} placeholder="Type your email" />
